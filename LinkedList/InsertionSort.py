@@ -1,7 +1,7 @@
 # Source : https://www.interviewbit.com/problems/insertion-sort-list/
 # Sort a linked list using insertion sort.
 
-# Algo/DS : Linked List
+# Algo/DS : Linked List, Insertion Sort
 
 # Complexity :O(n^2)
 
