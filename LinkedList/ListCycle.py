@@ -1,5 +1,6 @@
 # Source : https://www.interviewbit.com/problems/list-cycle/
 # Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+# why this logic works : https://www.quora.com/How-does-Floyds-cycle-finding-algorithm-work
 
 # Algo/DS : Linked List
 
