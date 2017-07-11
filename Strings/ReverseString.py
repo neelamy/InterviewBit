@@ -1,9 +1,9 @@
 # Source : https://www.interviewbit.com/problems/reverse-the-string/
 # Given an input string, reverse the string word by word.
 
-# Algo/DS : Stack
+# Algo/DS : String
 
-# Complexity :
+# Complexity :O(n)
 
 class ReverseString:
     # @param A : string
@@ -16,6 +16,7 @@ class ReverseString:
         
         for i in range(len(A)):
 
+        	#
             if A[i] == " "  and word == "" : continue
 
             # add non space char to word

@@ -1,7 +1,7 @@
 # Source : https://www.interviewbit.com/problems/palindrome-string/
 # Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
-# Algo/DS : Stack
+# Algo/DS : String
 
 # Complexity :O(n)
 

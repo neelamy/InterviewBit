@@ -1,9 +1,9 @@
 # Source : https://www.interviewbit.com/problems/count-and-say/
 #The count-and-say sequence is the sequence of integers beginning as follows: 1, 11, 21, 1211, 111221, ...
 
-# Algo/DS : Stack
+# Algo/DS : string
 
-# Complexity :
+# Complexity :O(n * s) s = length of longest string
 
 
 class Solution:
