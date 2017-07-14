@@ -10,11 +10,7 @@ class NonReapeting:
     # @return an integer
     def singleNumber(self, A):
         
-        xor = 0
-        
-        for i in A:
-            
-            xor = xor ^ i
+        xor = reduce(lambda x,y : x ^ y ,A)
             
         return xor
             

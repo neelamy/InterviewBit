@@ -3,7 +3,7 @@
 
 # Algo/DS : Bit Manipulation
 
-# Complexity : O(n) * log(N)
+# Complexity : O(n * log(N))
 
 class MinXor:
     # @param A : list of integers
