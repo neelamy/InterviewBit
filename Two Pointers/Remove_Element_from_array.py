@@ -11,27 +11,18 @@ class Remove:
     # @return an integer
     def removeElement(self, A, B):
         
-        if not A : return []
-        
-        i = 0; j = 0
-        
-        while i < len(A):
-            
-            # if element is same same as B then copy it at jth location
-            if A[i] != B:
-                
-                A[j] = A[i]
-                
-                i += 1
-                
-                j += 1
-                
+        count = 0
+
+        for i in A:
+
+            if i == B: continue
+
             else:
-                
-                # skip current element and move to next element
-                i += 1
+                A[count] = i
+                count +=1
+        
   
-        return j 
+        return count 
 
 def main():
 	print Remove().removeElement([4, 1, 1, 2, 1, 3], 1) # 3 and A is now [4, 2, 3]
