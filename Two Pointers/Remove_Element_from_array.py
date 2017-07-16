@@ -18,9 +18,10 @@ class Remove:
             if i == B: continue
 
             else:
+
                 A[count] = i
-                count +=1
-        
+
+                count +=1      
   
         return count 
 
