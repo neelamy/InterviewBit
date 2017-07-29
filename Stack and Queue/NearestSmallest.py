@@ -32,7 +32,7 @@ class NearestSmallest:
 
 
 def main():
-	print NearestSmallest().prevSmaller([39, 27, 11, 4, 24, 32, 32, 1 ])
+	print NearestSmallest().prevSmaller([39, 27, 11, 4, 24, 32, 32, 1 ]) #[-1, -1, -1, -1, 4, 24, 24, -1]
 
 if __name__ == '__main__':
 	main()
