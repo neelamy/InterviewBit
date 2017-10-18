@@ -1,5 +1,5 @@
 # Source : https://www.interviewbit.com/problems/minimize-the-absolute-difference/
-# Given three sorted arrays A, B and Cof not necessarily same sizes.
+# Given three sorted arrays A, B and C of not necessarily same sizes.
 # minimize | max(a,b,c) - min(a,b,c) |.
 
 # Algo/DS : 3 pointers
